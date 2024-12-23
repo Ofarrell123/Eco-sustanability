@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Eco-Sustainability</title>
+
+    <meta charset="utf-8">
+    <meta name="description"
+        content="eco-sustanability refers to the practice of protecting our environment through sustainable actions and preserving our natural resources for many futures to come">
+    <meta name="keywords"
+        content="eco-sustainability, environment, nature, sustainable, preserving, resources, futures,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">"
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<header>
+
+    <h1 style="text-align:center;">Eco-Sustainability</h1>
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="Services.html">What YOU can do to help</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="intro-box">
+        <h2> What is sustanability and why is it so important?</h2>
+        <p id="colorChangeParagraph"> First of all, sustanability refers to the practice of protecting our environment
+            through sustainable actions and preserving our natural resources. Sustainability is a concept that has been
+            around
+            for a long time, but it has only recently been adopted. Sustanibility is important as it ensures we do not
+            eratically consume all of the resources on earth, leaving it dry. Below is a video which explores the
+            importance
+            of this topic further. </p>
+
+        <button onclick="changeColor('yellow')" ondblclick="changeColor('blue')">Change Color</button>
+
+        <div class="container">
+
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/EbZcQe9J-EE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <script src="script.js"></script>
+        </body>
+
+
+
+        <script type="text/javascript" charset="utf-8">
+            (function (w, d, t, f) {
+                w[f] = w[f] || function (c, k, n) {
+                    s = w[f], k = s['k'] = (s['k'] || (k ? ('&k=' + k) : '')); s['c'] =
+                        c = (c instanceof Array) ? c : [c]; s['n'] = n = n || 0; L = d.createElement(t), e = d.getElementsByTagName(t)[0];
+                    L.async = 1; L.src = '//feed.aqicn.org/feed/' + (c[n].city) + '/' + (c[n].lang || '') + '/feed.v1.js?n=' + n + k;
+                    e.parentNode.insertBefore(L, e);
+                };
+            })(window, document, 'script', '_aqiFeed');    
+        </script>
+        <span id="city-aqi-container" style="font-size: 24px; text-align: center;"> beijing</span> </span>
+        <script type="text/javascript" charset="utf-8">
+            _aqiFeed({container: "city-aqi-container", city: "beijing"});  
+        </script>
+
+
+        <section class="intro-box2">
+            <h3> What will happen if we neglect sutanable practices ? </h3>
+            <p> Neglecting sustaianble practices can have a huge negative affect on the economy, society and on the
+                overall environment. Some of these negative affects are already noticeable. For an example Ignoring
+                sustainable actions can lead to very poor air quality, damaging the residents of a city. This is visible
+                in Beijing. As you can see above the air quality varies from moderate to very poor, affecting all
+                residents residing here. </p>
+
+
+
+        </section>

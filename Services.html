@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+  <header>
+
+  <h1 style="text-align:center;"> Eco-Sustainability 
+
+  
+  <nav>
+
+  <a href="index.html">Home</a>
+  <a href="Services.html">What YOU can do to help</a>
+  <a href="Contact.html">Contact</a>
+  </nav>
+  </header>
+  
+  <section class="intro-box3"> 
+    <h2> What can we do to help ?</h2>
+  <p> In order to become more sustainably ative their are many steps we as a community can take to improve our society. First of all, Stop using plastic bottles. These result in excess waste and over production, harming our environment. Secondly, use more rewneable energy. For an example, install solar pannels on your home, Lobby for more wind turbines in your area to reduce use of harmful energy. Thirdly, Use more public transport, reducing greenhouse gas emitions. Finally, Recycle all products. This reduces waste and promotes a cleaner environemnt. If we all take these steps together, we can work towards a greener future! </p>
+  
+  
+<script> 
+  var i = 0; 			
+  var images = [];	
+  var time = 5000;	
+
+
+  images[0] = "https://cdn.shopify.com/s/files/1/0087/2159/6471/files/social-proof-desktop-SILA-novak-bottle-waterdrop.png?v=1712149832";
+  images[1] = "https://www.sterlingtt.com/wp-content/themes/yootheme/cache/92/wind-turbines-pexels-kervin-edward-lara-3976320-928d0d59.jpeg";
+  images[2] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTig9d3DPp7NspfCAQ5qZzZ8PX77g3Kodf9JQ&s";
+  images[3] = "https://static.vecteezy.com/system/resources/previews/014/631/834/non_2x/colorful-ecological-recycle-bins-set-with-recycle-symbol-illustration-vector.jpg";
+
+ 
+  function changeImg(){
+    document.slide.src = images[i];
+
+
+    if(i < images.length - 1){
+        i++; 
+      } else { 
+        i = 0;
+      }
+
+    setTimeout("changeImg()", time);
+    }
+
+  window.onload=changeImg;
+  
+</script>
+
+  <img name= "slide" width="600" height="300" style="display: block; margin: 0 auto;"> 
